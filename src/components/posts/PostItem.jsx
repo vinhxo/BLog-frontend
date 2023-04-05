@@ -27,7 +27,7 @@ const PostItem = ({ post }) => {
                     .Một ngày Cá tháng Tư có lẽ là đỉnh cao nhất khi chúng ta đã trải qua những phút giây không thể đáng nhớ hơn cùng Bộ Tộc MixiGaming.
                     Với sự tâm huyết, tình cảm cùng sự ủng hộ của hàng triệu người hâm mộ, Độ Mixi và cả ekip đã tạo nên một buổi Offline vô cùng hoành tráng, một giải đấu "Ao làng FIFA Online 4 đúng nghĩa".
                 </p>
-                <Link className="post-item-link" to={`/posts/detail/${post._id}`}>
+                <Link className="post-item-link" to={`/posts/details/${post._id}`}>
                     Read More...
                 </Link>
             </div>
